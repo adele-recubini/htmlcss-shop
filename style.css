@@ -16,8 +16,7 @@
   border: 1px solid black;
 }
 .contenitore-immag{
-  width:390px;
-  height: 450px;
+
   display: inline-block;
   background-color: yellow;
   border:2px solid black;
@@ -26,7 +25,8 @@
 }
 img{
   top:20px;
-  position: relative;
+  
+
 }
 /* classe utility */
 .sconto.green,.sconto.red{
@@ -42,9 +42,11 @@ img{
   background-color:red;
 }
 .cuore{
+  width: 100%;
   bottom:10px;
   position: absolute;
-  right:150px;
+
+  text-align: center;
   display: none;
 }
 
