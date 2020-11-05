@@ -16,7 +16,7 @@
   border: 1px solid black;
 }
 .contenitore-immag{
-  width:350px;
+  width:390px;
   height: 450px;
   display: inline-block;
   background-color: yellow;
@@ -40,4 +40,14 @@ img{
 }
 .red{
   background-color:red;
+}
+.cuore{
+  bottom:10px;
+  position: absolute;
+  right:150px;
+  display: none;
+}
+
+.contenitore-immag:hover .cuore{
+  display:block;
 }
