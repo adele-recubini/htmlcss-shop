@@ -4,8 +4,7 @@
   padding:0;
 }
 .container{
-  width: 1000px;
-
+  width: 950px;
   background-color: red;
   margin:0 auto;
 }
@@ -14,4 +13,9 @@
   height: 372px;
   background-color:blue;
   border: 1px solid black;
+  position: relative;
+  display:inline-block;
+}
+img{
+  position: absolute;
 }
